@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#title {
+  margin-top: 10px;
+  text-align: center;
+  color: #daa520;
+}
+
+#dois {
+  color: #d2b48c;
+}
+
+#resposta {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #c0c0c0;
+}
+
+#termo {
+  display: contents;
+}
+
+#box-bt {
+  display: flex;
+  justify-content: space-around;
+}
+
+#botao-aleatorio {
+  transition: all 0.1s ease-in-out;
+}
+
+button {
+  background-color: #007bff; /* Azul padrão do Bootstrap */
+  color: #fff;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px   2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
