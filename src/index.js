@@ -1,4 +1,4 @@
-const button = document.getElementById('botao-aleatorio')
+const button = document.getElementById('random-bt')
 
 function moveButton(event) {
   const windowWidth = window.innerWidth
